@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-brands-400.eot">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+
+
+<!--header section starts-->
+<header>
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>RESTO</a>
+
+    <nav class="navbar">
+        <a class="active" href="#home">Trang chủ</a>
+        <a href="#dishes">Món ăn</a>
+        <a href="#about">Về chúng tôi</a>
+        <a href="#menu">Thực đơn</a>
+        <a href="#review">Đánh giá</a>
+        <a href="#order">Đặt hàng</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        
+    </div>
+</header>
+
+<!--header section end-->
+
+<!--search form-->
+<form action="" id="search-form">
+    <input type="search" placeholder="tìm kiếm..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!--home section stars-->
+
+<section class="home" id="home">
+
+    <div class="swiper mySwiper home-slider">
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Món ăn đặc biệt </span>
+                    <h3>Bún Chả</h3>
+                    <a href="#order" class="btn">Đặt ngay</a>
+                </div>
+                <div class="image">
+                    <img src="anh7.jpg" alt="" width="500px">
+                </div>
+            </div>
+          
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Món ăn đặc biệt </span>
+                    <h3>Gà Nướng Mật Ong</h3>
+                    <a href="#order" class="btn">Đặt ngay</a>
+                </div>
+                <div class="image">
+                    <img src="anh1.jpg" alt="" width="500px">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Món ăn đặc biệt </span>
+                    <h3>Sườn Xào Chua Ngọt</h3>
+                    <a href="#order" class="btn">Đặt ngay</a>
+                </div>
+                <div class="image">
+                    <img src="anh18.jpg" alt="" width="500px">
+                </div>
+            </div>
+
+        </div>
+<div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<!--home section end-->
+<!--dishes section stars-->
+<section class="dishes" id="dishes">
+
+    
+    <h1 class="heading">MÓN ĂN PHỔ BIẾN</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="anh12.webp" alt="" width="60%">
+            <h3>Lẩu Đuôi Bò</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$20</span>
+            <a href="#" class="btn">đặt ngay</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="anh2.jpg" alt="" width="60%">
+            <h3>Chả Cá Lã Vọng</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$10</span>
+            <a href="#order" class="btn">đặt ngay</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="anh11.jpg" alt="" width="60%">
+            <h3>Lẩu Gà Lá giang</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$12</span>
+            <a href="#order" class="btn">đặt ngay</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="anh8.jpg" alt="" width="60%">
+            <h3>Bánh xèo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$10</span>
+            <a href="#order" class="btn">đặt ngay</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="anh9.webp" alt="" width="60%">
+            <h3>Gỏi Cuốn</h3>
+            <div class="stars">
+<i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$3</span>
+            <a href="#order" class="btn">đặt ngay</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="anh10.jpg" alt="" width="60% ">
+            <h3>Gà Tần Thuốc Bắc</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$12</span>
+            <a href="#order" class="btn">đặt ngay</a>
+        </div>
+    </div>
+
+
+</section>
+
+<!--dishes section ends-->
+
+<!--about section stars-->
+
+<section class="about" id="about">
+
+    <h1 class="sub-heading">Giới Thiệu</h1>
+    
+
+    <div class="row">
+
+        <div class="image">
+            <img src="anh2.avif" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Khám phá hương vị đích thực của ẩm thực đẳng cấp</h3>
+            <p>Chào mừng bạn đến với nhà hàng của chúng tôi!Tại đây, chúng tôi tự hào mang đến cho quý khách một trải nghiệm ẩm thực tuyệt
+             vời, kết hợp giữa hương vị độc đáo và không gian thoải mái. Với đội ngũ đầu bếp tài năng và chuyên nghiệp, chúng tôi cam kết 
+             cung cấp những món ăn tươi ngon nhất, từ các món ăn địa phương phong phú đến những món ăn quốc tế đa dạng.Nhà hàng của chúng
+             tôi không chỉ là nơi để thưởng thức các món ăn ngon mà còn là điểm đến lý tưởng cho các buổi tiệc, họp mặt hay các dịp đặc biệt.
+             Với không gian sang trọng và phục vụ chuyên nghiệp, chúng tôi sẽ đem đến cho bạn những khoảnh khắc ấn tượng và đáng nhớ. 
+             Hãy đến và khám phá những hương vị đặc trưng của chúng tôi, cùng trải nghiệm dịch vụ tận tâm và chất lượng hàng đầu. 
+             Chúng tôi luôn sẵn sàng chào đón bạn!</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>Miễn Phí Vận Chuyển</span>
+                </div>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>Thanh Toán Dễ Dàng</span>
+                </div>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>Dịch Vụ 24/7</span>
+                </div>   
+            </div>
+<a href="#order" class="btn">Đặt ngay</a>
+        </div>
+    </div>
+
+</section>
+
+<!--about section ends-->
+
+<!--menu section stars-->
+
+<section class="menu" id="menu">
+
+    
+    <h1 class="heading">Menu</h1>
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="anh19.jpg" alt="" width="100%">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Phở Bò Wagyu </h3>
+                <p>Thành phần : thịt bò wagyu, bánh phở, nước dùng, gia vị thảo mộc</p>
+                    <a href="#order" class="btn">đặt ngay</a>
+                    <span class="price">$20</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="anh13.jpg" alt="" width="100%">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Bánh Cuốn  </h3>
+                <p>Thành phần: Bột gạo, Nhân bánh, Nước chấm, Rau sống, ChảQuế</p>
+                    <a href="#order" class="btn">đặt ngay</a>
+                    <span class="price">$2</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="anh2.jpg" alt="" width="100%">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Chả Cá Lã Vọng</h3>
+                <p>Thành Phần: Cá Lăng, Gia Vị Ướp,Mắn Tôm, Rau Thì Là, Lạc Rang, Bún, Hành Hoa </p>
+                    <a href="#order" class="btn">đặt ngay</a>
+                    <span class="price">$10</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="anh16.jpg" alt="" width="100%">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+<div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Sườn Tảng Sốt BBQ </h3>
+                <p>Thành Phần: Sườn Heo, Gia Vị Ướp, Sốt BBQ</p><br><br><br><br><br>
+                    <a href="#order" class="btn">đặt ngay</a>
+                    <span class="price">$10</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="anh15.jpg" alt="" width="100%">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Cơm Tấm</h3>
+                <p>Thành Phần:Gạo Tấm, Bì, Sườn Nướng, Cả Trứng, Mỡ Hành, Nước Mắm, Đồ Chua</p><br><br><br>
+                    <a href="#order" class="btn">đặt ngay</a>
+                    <span class="price">$4</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="anh8.jpg" alt="" width="100%">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Bánh Xèo</h3>
+                <p>Thành Phần:Bột Gạo, Nước Cốt Dừa, Nhân Bánh, Nước Mắm, Rau Sống</p><br><br><br>
+                    <a href="#order" class="btn">đặt ngay</a>
+                    <span class="price">$2</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="anh11.jpg" alt="" width="100%">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Lẩu Gà Lá Giang</h3>
+<p>Thành Phần: Gà, Lá Giang, Nước Lẩu, Nấm Bào Ngư , Rau Sống, Đậu Phụ </p><br><br><br>
+                    <a href="#order" class="btn">đặt ngay</a>
+                    <span class="price">$12</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="anh17.jpg" alt="" width="100%">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Lẩu Cua Đồng</h3>
+                <p>Thành Phần: Thịt Bò, Nước Riêu Cua, Đậu Phụ, Rau Sống, Mì, Bún</p><br><br><br>
+                    <a href="#order" class="btn">đặt ngay</a>
+                    <span class="price">$10</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="anh3.jpg" alt="" width="100%">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Cá Chép Om Dưa</h3>
+                <p>Thành Phần: Cá Chép, Dưa Chua, Nước Dừa, Rau thơm, Rau Sống, Hành Tây , Thì Là </p><br><br><br>
+                    <a href="#order" class="btn">đặt ngay</a>
+                    <span class="price">$5</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="anh6.jpg" alt="" width="100%">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Rau Muống Xào Tỏi</h3>
+                <p>Thành Phần: Rau Muống, Gia Vị , Tỏi </p><br><br><br><br><br><br><br>
+                    <a href="#order" class="btn">đặt ngay</a>
+                    <span class="price">$2</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="anh4.jpg" alt="" width="100%">
+<a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Mì Vằn Thắn</h3>
+                <p>Thành Phần: Bột Mì , Muối, Nước, Tinh Bột Khoai Môn, Dầu Ăn, Nước đường </p><br><br><br><br><br>
+                    <a href="#order" class="btn">đặt ngay</a>
+                    <span class="price">$5</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="anh14.jpg" alt="" width="100%">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Nộm Bò Ngũ Sắc</h3>
+                <p>Thành Phần: Thịt Bò, Rau Sống, Hành Tím, Đậu Phộng, Dưa Chuột, Nước Mắm, Tỏi, Đường </p><br><br><br>
+                    <a href="#order" class="btn">đặt ngay</a>
+                    <span class="price">$2</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="anh1.jpg" alt="" width="100%">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Gà Nướng Mật Ong</h3>
+                <p>Thành Phần: Gà, tỏi, ớt, nướng tương , tiêu, dầu oliu, muối </p><br><br><br><br><br>
+                    <a href="#order" class="btn">đặt ngay</a>
+                    <span class="price">$10</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="anh18.jpg" alt="" width="100%">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+<i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Sườn Xào Chua ngọt</h3>
+                <p>Thành Phần: Sườn heo, Đường, Dầu ăn, Nước mắm, Dầu hào, Hành tím, Tỏi, Ớt chuông </p><br>
+                    <a href="#order" class="btn">đặt ngay</a>
+                    <span class="price">$8</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="anh20.jpg" alt="" width="100%">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Canh Ngao dọc Mùng</h3>
+                <p>Thành Phần: Ngao , Dọc Mùng, Nước, Tỏi, gừng, Hành, gia vị, cà chua </p><br><br><br>
+                    <a href="#order" class="btn">đặt ngay</a>
+                    <span class="price">$5</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="anh9.webp" alt="" width="100%">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Gỏi Cuốn</h3>
+                <p>Thành Phần: Tôm, Bún tàu, Rau sống, Ống trứng, Nước mắm, Tỏi, Dầu mè, Đậu phộng, Bánh tráng</p><br>
+                    <a href="#order" class="btn">đặt ngay</a>
+                    <span class="price">$3</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="anh10.jpg" alt="" width="100%">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Gà Tần thuốc Bắc</h3>
+                <p>Thành Phần: Gà, Đông trùng hạ thảo, Nhân sâm, Gừng, Nước dừa tươi, Gia vị</p><br><br><br>
+                    <a href="#order" class="btn">đặt ngay</a>
+                    <span class="price">$12</span>
+</div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="anh21.jpg" alt="" width="100%">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Cá Suối Nướng </h3>
+                <p>Thành Phần: Cá suối, Tỏi, Hành, Xả, Ớt, Dầu ăn, Dầu Hào </p><br><br><br><br><br>
+                    <a href="#order" class="btn">đặt ngay</a>
+                    <span class="price">$7</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="anh5.jpg" alt="" width="100%">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Bò Lúc Lắc</h3>
+                <p>Thành Phần: Thịt bò, Hành, tỏi, Ớt Chuông, Tiêu, Dầu Hào, dầu ăn </p><br><br><br>
+                    <a href="#order" class="btn">đặt ngay</a>
+                    <span class="price">$10</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="anh12.webp" alt="" width="100%">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Lẩu đuôi Bò</h3>
+                <p>Thành Phần: Đuôi Bò, Nước Lẩu, rau sống, Đậu phụ, mì tôm, Nấm kim châm, váng đậu </p><br>
+                    <a href="#order" class="btn">đặt ngay</a>
+                    <span class="price">$20</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="anh7.jpg" alt="" width="100%">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Bún Chả</h3>
+                <p>Thành Phần: bún , Nước Mắm, thịt Nướng, thịt Viên, Rau thơm, Tiêu, đồ chua </p><br><br><br>
+                    <a href="#order" class="btn">đặt ngay</a>
+                    <span class="price">$2</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!--menu section ends-->
+
+<!--review section stars-->
+
+<section class="review" id="review">
+
+    
+    <h1 class="heading">Đánh Giá Khách Hàng</h1>
+
+    <div class=" swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+            
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="anh29.jpg" alt="" width="15%">
+                    <div class="user-info">
+                        <h3>Duc Anh</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Tôi rất hài lòng với trải nghiệm của mình tại nhà hàng này. Dịch vụ rất tận tình và chuyên nghiệp,
+                     từ khi đặt hàng đến khi nhận được món ăn đều được thực hiện nhanh chóng và chính xác. 
+                     Món ăn thì không gì có thể chê được, ngon tuyệt vời và đậm đà hương vị. Chắc chắn sẽ quay lại!</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="anh25.jpg" alt="" width="15%">
+                    <div class="user-info">
+                        <h3>Pham Nhat Vuong</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Một lựa chọn hoàn hảo cho bữa tiệc gia đình cuối tuần.
+                   Nhà hàng này không chỉ có menu đa dạng mà còn có dịch vụ giao hàng rất nhanh chóng và đảm bảo.
+Mỗi lần đặt món, tôi luôn được đảm bảo rằng thực phẩm được giữ nóng và đúng giờ. 
+                   Điều này khiến cho mỗi bữa ăn trở nên dễ dàng và tiện lợi hơn bao giờ hết.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="anh22.jpg" alt="" width="15%">
+                    <div class="user-info">
+                        <h3>cristiano ronaldo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Đồ ăn rất ngon, tôi rất hài lòng về dịch vụ của nhà hàng</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="anh23.jpg" alt="" width="15%">
+                    <div class="user-info">
+                        <h3>lionel messi</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>waooo, lần đầu tiên tôi được trải nghiệm ẩm thực một cách tiện lợi mà không cần phải đi ra ngoài đường phố đông đúc</p>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="anh28.jpg" alt="" width="15%">
+                    <div class="user-info">
+                        <h3>donald trump</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Nếu bạn đang tìm kiếm một nơi để thưởng thức ẩm thực đặc biệt, tôi rất gợi ý đến nhà hàng này. 
+                    Họ không chỉ cung cấp những món ăn ngon và đa dạng mà còn có dịch vụ giao hàng vô cùng nhanh nhẹn.
+Bất kể bạn ở đâu, bạn cũng có thể thưởng thức các món ăn tuyệt vời từ nhà hàng này ngay tại nhà của mình!</p>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="anh24.jpg" alt="" width="15%">
+                    <div class="user-info">
+                        <h3>bill gates</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Được biết đến qua lời giới thiệu từ bạn bè, tôi đã không hề thất vọng khi trải nghiệm dịch vụ của nhà hàng này. 
+                   Giao hàng của họ luôn đảm bảo đúng hẹn và món ăn vẫn giữ được độ nóng và tươi ngon. 
+                   Đặc biệt, mỗi lần đặt món đều nhận được sự chăm sóc tỉ mỉ từ nhân viên, khiến cho trải nghiệm ăn uống trở nên thú vị hơn nhiều.</p>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="anh26.jpg" alt="" width="15%">
+                    <div class="user-info">
+                        <h3>mark zuckerberg</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Nhà hàng này là sự lựa chọn số một của tôi mỗi khi có dịp tụ tập bạn bè hoặc gia đình. 
+                    Món ăn không chỉ ngon miệng mà còn được chế biến với nguyên liệu tươi ngon, và được phục vụ nhanh chóng. 
+                    Sự chuyên nghiệp và tận tình của đội ngũ nhân viên là điều tôi luôn đánh giá cao, giúp tôi cảm thấy như đang ở trong một không gian ẩm thực thực sự.</p>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="anh27.jpg" alt="" width="15%">
+                    <div class="user-info">
+                        <h3>elon musk</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Ngoài việc có một menu phong phú, nhà hàng còn nổi bật với sự linh hoạt trong dịch vụ giao hàng. 
+                    Tôi thường xuyên đặt món từ đây cho các buổi tiệc tại nhà và luôn được đảm bảo về chất lượng và độ nóng của món ăn. 
+                    Điều này khiến tôi hoàn toàn tin tưởng và lựa chọn nhà hàng này làm đối tác ưa thích trong các dịp đặc biệt.</p>
+        </div>
+
+    
+    </div>
+
+</section>
+
+<!--review section ends-->
+
+
+<!--order section stars-->
+
+<section class="order" id="order">
+
+    <h3 class="sub-heading">Đặt Hàng Ngay</h3>
+    <h1 class="heading">Đơn đặt Hàng</h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <div class="input">
+                <span>Họ Và Tên</span>
+                <input type="text" id="num1" placeholder="Nhập tên của bạn">
+            </div>
+            <div class="input">
+                <span>Số Điện Thoại</span>
+                <input type="number" id="num2" placeholder="Nhập số điện thoại của bạn">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Món ăn</span>
+                <input type="text" id="num3" placeholder="Chọn món ăn">
+            </div>
+            <div class="input">
+                <span>Thêm Đồ ăn kèm</span>
+                <input type="text" id="num4" placeholder="Chọn đồ ăn kèm">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Số Lượng</span>
+                <input type="number" id="num5" placeholder="Số lượng">
+            </div>
+            <div class="input">
+                <span>Thời Gian Nhận Hàng</span>
+                <input type="datetime-local" id="num6">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Địa Chỉ</span>
+                <textarea name="" id="num6" placeholder="Nơi Nhận" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>Để lại lời nhắn</span>
+                <textarea name="" id="num7" placeholder="Nhắn lại với nhà hàng" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <input type="submit" onclick="showAlert()" value="xác nhận" class="btn">
+
+
+    </form>
+
+</section>
+
+<!--order section ends-->
+
+<!--footer section stars-->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Chi Nhánh</h3>
+            <a href="#">Hà Nội</a>
+            <a href="#">Thái Bình</a>
+<a href="#">Nam Định</a>
+            <a href="#">Hải Phòng</a>
+            <a href="#">Hải Dương</a>
+        </div>
+
+        
+        <div class="box">
+            <h3>liên kết nhanh</h3>
+            <a href="#">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#mrnu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </div>
+
+        <div class="box">
+            <h3>Thông tin liên hệ</h3>
+            <a href="#">0987654321</a>
+            <a href="#">0123456789</a>
+            <a href="#">Hungtran@gmail.com</a>
+            <a href="#">Ducanh@gmail.com</a>
+            <a href="#">HaNoi, VietNam-400104</a>
+           </div>
+
+           <div class="box">
+            <h3>Theo dõi</h3>
+            <a href="#">facebook</a>
+            <a href="#">tiktok</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+           </div>
+
+    </div>
+</section>
+
+<!--footer section ends-->
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
